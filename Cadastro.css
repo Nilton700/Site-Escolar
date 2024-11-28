@@ -1,0 +1,93 @@
+/* Estilo Global */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4; /* Cor neutra e discreta */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh; /* Garante que o body ocupe toda a altura da tela */
+    padding: 0;
+    color: #333; /* Cor de texto mais escura para contraste adequado */
+}
+
+/* Cabeçalho */
+.Cabeçalho {
+    background-color: #003366; /* Azul escuro para dar um tom mais institucional */
+    color: white; /* Texto branco para contraste */
+    padding: 20px;
+    border-radius: 8px; /* Bordas mais suaves */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    margin-bottom: 20px;
+    width: 320px; /* Largura um pouco maior para dar um bom espaçamento */
+    text-align: center;
+}
+
+/* Formulário */
+.Formulário {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens dentro do formulário */
+    background-color: #fff; /* Cor de fundo branca para contraste */
+    border: 1px solid #ccc; /* Borda suave */
+    border-radius: 8px; /* Bordas arredondadas para suavizar o visual */
+    padding: 30px;
+    width: 320px; /* Largura controlada */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilo para os rótulos do formulário */
+.Aluno label {
+    color: #555; /* Cor do texto para rótulos mais suave */
+    font-weight: bold; /* Rótulos mais destacáveis */
+    margin-top: 15px;
+}
+
+/* Estilo para os inputs */
+.Aluno input {
+    background-color: #f0f0f0; /* Fundo mais suave e menos chamativo */
+    border: 1px solid #ccc; /* Borda fina e sutil */
+    border-radius: 4px; /* Bordas mais discretas */
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%; /* Faz com que os inputs ocupem toda a largura do formulário */
+    box-sizing: border-box; /* Para garantir que o padding não quebre o layout */
+    font-size: 14px; /* Tamanho de fonte adequado e legível */
+}
+
+/* Estilo do botão */
+button {
+    background-color: #006699; /* Azul claro, sério e profissional */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100%; /* O botão ocupa toda a largura disponível */
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #004d66; /* Azul mais escuro para hover */
+}
+
+/* Links de login */
+.Login {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.Login a {
+    text-decoration: none;
+    color: #003366; /* Azul mais escuro, combinando com o cabeçalho */
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.Login a:hover {
+    color: #006699; /* Azul claro no hover */
+}

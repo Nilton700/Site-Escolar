@@ -1,0 +1,74 @@
+body{
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 1,5rem;
+    padding: 0,5px;
+    display: flex 50rem;
+}
+
+header{
+    padding: 0,9rem;
+    margin: 0rem;
+    width: 0,5rems;
+}
+
+img{
+    background-color: white;
+    width: 15rem;
+    margin: 0,8rem;
+    margin-bottom: 15px;
+    border-radius: 30px;
+}
+
+div{
+    justify-content: center;
+    text-align: left;
+    background-color: white;
+    padding: 5px;
+    margin-left: 25vh;
+    margin-right: 25vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: justify;
+}
+.Formulário input{
+    width: 50vh;
+    height: 4vh;
+    font-size: medium;
+}
+
+.Login{
+    color: black;
+    margin-top: 5px;
+    padding: 0,5px; 
+}
+
+.Senha{
+    color: black;
+    padding: 0,5px;
+}
+
+.Login input{
+    background-color:rgb(183, 208, 255);  
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.Senha input{
+    background-color: rgb(183, 208, 255);
+    border-radius: 10px;
+}
+
+.Senha button{
+    color: yellow;
+    background-color: orangered;
+    margin-top: 2vh;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.Contato{
+    margin-top: 0,5px;
+    padding: 2vh;
+}
